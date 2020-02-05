@@ -21,7 +21,7 @@ yarn dev
 ```
 > Lembre-se de deixar rodando o backend...
 
-### FrontEnd
+### Frontend
 
 Em breve...
 
@@ -29,7 +29,7 @@ Em breve...
 
 Esse projeto foi desenvolvido durante o [Bootcamp GoStack da RocketSeat](https://rocketseat.com.br/bootcamp) usando as seguintes tecnologias:
 
--  [Node.js][nodejs]
+-  [Node.js][https://nodejs.org/en/dejs]
 -  [Express](https://expressjs.com/)
 -  [nodemon](https://nodemon.io/)
 -  [Sucrase](https://github.com/alangpierce/sucrase)
@@ -40,7 +40,7 @@ Esse projeto foi desenvolvido durante o [Bootcamp GoStack da RocketSeat](https:/
 -  [JWT](https://jwt.io/)
 -  [Bcrypt](https://www.npmjs.com/package/bcrypt)
 -  [Yup](https://www.npmjs.com/package/yup)
--  [VS Code][vc] with [ESLint][vceslint]
+-  [VS Code][https://code.visualstudio.com/] with [ESLint][https://eslint.org/]
 
 ---
 
