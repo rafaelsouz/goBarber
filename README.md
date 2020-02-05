@@ -1,3 +1,4 @@
+<h1 align="center"><img src="./images/logo.svg" width="100"/></h1>
 <h1 align="center"> GoBarber </h1>
 
 <h3 align="center">Uma aplicação de agendamento de serviço para um salão de beleza fictício</h3>
