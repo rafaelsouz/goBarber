@@ -4,7 +4,7 @@ import User from '../models/User';
 
 class UserController {
   async store(req, res) {
-    const schemaValidation = Yup.object().shape({
+    const schema = Yup.object().shape({
       name: Yup.string().required(),
       email: Yup.string()
         .email()
@@ -14,7 +14,7 @@ class UserController {
         .min(6),
     });
 
-    if (!(await schemaValidation.isValid(req.body))) {
+    if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
@@ -30,7 +30,7 @@ class UserController {
   }
 
   async update(req, res) {
-    const schemaValidation = Yup.object().shape({
+    const schema = Yup.object().shape({
       name: Yup.string(),
       email: Yup.string().email(),
       oldPassword: Yup.string().min(6),
@@ -44,7 +44,7 @@ class UserController {
       ),
     });
 
-    if (!(await schemaValidation.isValid(req.body))) {
+    if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails' });
     }
 

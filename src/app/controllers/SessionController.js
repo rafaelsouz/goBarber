@@ -6,14 +6,14 @@ import User from '../models/User';
 
 class SessionController {
   async store(req, res) {
-    const schemaValidation = Yup.object().shape({
+    const schema = Yup.object().shape({
       email: Yup.string()
         .email()
         .required(),
       password: Yup.string().required(),
     });
 
-    if (!(await schemaValidation.isValid(req.body))) {
+    if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
