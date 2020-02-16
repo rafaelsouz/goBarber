@@ -21,7 +21,7 @@ class AvailableController {
     const searchDate = Number(date);
 
     // Pegando todos os agendementos que está disponiveis do prestador.
-    const appointment = await Appointment.findAll({
+    const appointments = await Appointment.findAll({
       where: {
         provider_id: req.params.providerId,
         canceled_at: null,
@@ -58,7 +58,7 @@ class AvailableController {
         value: format(value, "yyyy-MM-dd'T'HH:mm:ssxxx"),
         available:
           isAfter(value, new Date()) &&
-          !appointment.find(a => format(a.date, 'HH:mm') === time),
+          !appointments.find(a => format(a.date, 'HH:mm') === time),
       };
     });
 
