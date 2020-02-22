@@ -20,20 +20,20 @@
     <td>Todos os dados informados pelo o usuário para fazer algum cadastro/edição deveram ser validado para verificar se estão no formato correto.</td>
   </tr>
   <tr>
-    <td>Avatar para provedores</td>
-    <td>Usuários que são provedores de serviços podem adicionar um avatar a sua conta.</td>
+    <td>Avatar para prestadores</td>
+    <td>Usuários que são prestadores de serviços podem adicionar um avatar a sua conta.</td>
   </tr>
   <tr>
     <td>Agendamento de um serviço</td>
-    <td>Usuários podem agendar um horário(se disponível) com um provedor de serviço.</td>
+    <td>Usuários podem agendar um horário(se disponível) com um prestador de serviço.</td>
   </tr>
   <tr>
-    <td>Listagem de provedores.</td>
-    <td>O sistema deve fazer uma listagem dos provedores de serviços cadastrados.</td>
+    <td>Listagem de prestadores.</td>
+    <td>O sistema deve fazer uma listagem dos prestadores de serviços cadastrados.</td>
   </tr>
   <tr>
     <td>Listagem de agendamento do usuário.</td>
-    <td>O usuário logado pode listar os agendamentos com os provedores</td>
+    <td>O usuário logado pode listar os agendamentos com os prestadores</td>
   </tr>
   <tr>
     <td>Paginação dos agendamentos.</td>
@@ -44,7 +44,7 @@
     <td>O prestador de serviço pode olha a sua agenda do dia, todos os horários livre e marcados de cada dia.</td>
   </tr>
   <tr>
-    <td>Notificar o provedor sobre um novo agendamento.</td>
+    <td>Notificar o prestador sobre um novo agendamento.</td>
     <td>Todo vez que algum horário foi agendado com um prestador, ele é notificado sobre esse agendamento, ordenando as notificações pela a data mais atual.</td>
   </tr>
   <tr>
@@ -57,11 +57,11 @@
   </tr>
   <tr>
     <td>Envio de email avisando do cancelamento.</td>
-    <td>Quando um usuário conseguir cancelar um agendamento, o provedor recebe um email, avisando sobre o cancelamento, informando a data, hora e o cliente que cancelou.</td>
+    <td>Quando um usuário conseguir cancelar um agendamento, o prestador recebe um email, avisando sobre o cancelamento, informando a data, hora e o cliente que cancelou.</td>
   </tr>
   <tr>
     <td>Listagem de horários disponívei.</td>
-    <td>Quando o usuário escolher um provedor, ele deve receber todos os horários disponíveis deste prestador.</td>
+    <td>Quando o usuário escolher um prestador, ele deve receber todos os horários disponíveis deste prestador.</td>
   </tr>
 </table>
 

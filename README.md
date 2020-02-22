@@ -8,7 +8,7 @@ e depois ir em config/database.js e alterar host, username, password, database d
 </h4>
 
 ## Funcionalidades
-[Saiba mais](./)
+[Saiba mais](./backend/README.md)
 
 ## Instalação
 ### Backend/API
@@ -56,7 +56,6 @@ Esse projeto foi desenvolvido durante o [Bootcamp GoStack da RocketSeat](https:/
 -  [Youch](https://www.npmjs.com/package/youch)
 -  [Nodemailer](https://www.npmjs.com/package/nodemailer)
 -  [VS Code](https://code.visualstudio.com/) with [ESLint](https://eslint.org/)
--
 
 ---
 
