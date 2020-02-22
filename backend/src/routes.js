@@ -18,6 +18,7 @@ const routes = new Router();
 const upload = multer(multerConfig);
 
 routes.post('/users', UserController.store);
+
 routes.post('/sessions', SessionController.store);
 
 // Declarando o authMiddleware aqui, para esse middleware valer para todos as rotas que vem abaixo.
