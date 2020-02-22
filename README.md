@@ -7,6 +7,9 @@
 e depois ir em config/database.js e alterar host, username, password, database de acordo com seu container.
 </h4>
 
+## Funcionalidades
+[Saiba mais](./)
+
 ## Instalação
 ### Backend/API
 Clone este repositório e instale as dependências
@@ -26,6 +29,10 @@ yarn dev
 
 Em breve...
 
+## Mobile
+
+Em breve...
+
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido durante o [Bootcamp GoStack da RocketSeat](https://rocketseat.com.br/bootcamp) usando as seguintes tecnologias:
@@ -41,7 +48,15 @@ Esse projeto foi desenvolvido durante o [Bootcamp GoStack da RocketSeat](https:/
 -  [JWT](https://jwt.io/)
 -  [Bcrypt](https://www.npmjs.com/package/bcrypt)
 -  [Yup](https://www.npmjs.com/package/yup)
+-  [Multer](https://www.npmjs.com/package/multer)
+-  [Bee Queue](https://www.npmjs.com/package/bee-queue)
+-  [Redis](https://redis.io/)
+-  [Date-fns](https://www.npmjs.com/package/date-fns)
+-  [Dotenv](https://www.npmjs.com/package/dotenv)
+-  [Youch](https://www.npmjs.com/package/youch)
+-  [Nodemailer](https://www.npmjs.com/package/nodemailer)
 -  [VS Code](https://code.visualstudio.com/) with [ESLint](https://eslint.org/)
+-
 
 ---
 
