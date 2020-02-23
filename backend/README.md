@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td>Validar dados de entrada.</td>
-    <td>Todos os dados informados pelo o usuário para fazer algum cadastro/edição deveram ser validado para verificar se estão no formato correto.</td>
+    <td>Todos os dados informados pelo o usuário para fazer algum cadastro/edição deve ser validado para verificar se estão no formato correto.</td>
   </tr>
   <tr>
     <td>Avatar para prestadores</td>
